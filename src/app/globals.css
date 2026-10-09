@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* Brand System - Mbonyange Africa Limited */
+
+@theme {
+  --color-primary: #76614d;
+  --color-primary-light: #8a7260;
+  --color-secondary: #4f6c6c;
+  --color-muted: #879080;
+  --color-dark: #1b1d1f;
+  --color-card-bg: #f5f5f5;
+  --color-border-color: #e5e5e5;
+  --font-inter: "Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #1b1d1f;
+    --primary: #76614d;
+    --primary-light: #8a7260;
+    --secondary: #4f6c6c;
+    --muted: #879080;
+    --dark: #1b1d1f;
+    --card-bg: #f5f5f5;
+    --border-color: #e5e5e5;
+  }
+
+  * {
+    border-color: var(--border-color);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-lato), sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    color: var(--foreground);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background-color: var(--primary);
+    color: white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-[#76614d] text-white rounded-md font-medium transition-all duration-300 hover:bg-[#8a7260] hover:scale-105 active:scale-95 shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-[#4f6c6c] text-white rounded-md font-medium transition-all duration-300 hover:bg-[#4f6c6c]/90 hover:scale-105 active:scale-95 shadow-md;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-[#76614d] text-[#76614d] rounded-md font-medium transition-all duration-300 hover:bg-[#76614d] hover:text-white hover:scale-105 active:scale-95;
+  }
+
+  .btn-ghost {
+    @apply px-6 py-3 border-2 border-white/30 text-white rounded-md font-medium transition-all duration-300 hover:bg-white/10 hover:border-white hover:scale-105 active:scale-95;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 cursor-pointer;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -8px rgba(118, 97, 77, 0.3);
+  }
+
+  .category-card {
+    @apply bg-white border border-gray-200 rounded-2xl p-8 transition-all duration-300 hover:border-[#76614d]/50 hover:shadow-xl hover:shadow-[#76614d]/10;
+  }
+
+  .section-py {
+    @apply py-20 md:py-24;
+  }
+
+  .container-base {
+    @apply container mx-auto px-4 md:px-6;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #76614d 0%, #8a7260 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-industrial {
+    background: linear-gradient(180deg, #2E2E2E 0%, #3a3a3a 100%);
+  }
+
+  .glow-hover {
+    @apply transition-all duration-300;
+  }
+
+  .glow-hover:hover {
+    box-shadow: 0 0 20px rgba(118, 97, 77, 0.4);
+  }
+}
+
+@keyframes kenburns {
+  0%   { transform: scale(1)    translate(0, 0); }
+  50%  { transform: scale(1.08) translate(-1%, -1%); }
+  100% { transform: scale(1)    translate(0, 0); }
+}
+
+@keyframes fadeSlide {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { opacity: 0; }
+}
