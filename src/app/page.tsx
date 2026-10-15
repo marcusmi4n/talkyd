@@ -41,9 +41,10 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* Photo background */}
         <Image
-          src="/bg/buffalo.jpg"
-          alt="Hero background"
+          src="/images/talkyd/hero.jpg"
+          alt="Talkyd Industrial Solutions"
           fill
+          sizes="100vw"
           className="object-cover object-center"
           priority
         />
