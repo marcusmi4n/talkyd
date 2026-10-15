@@ -162,14 +162,15 @@ export default function HeroSection() {
         transition={{ duration: 1, ease: 'easeOut', delay: 0.3 }}
         className="absolute top-28 right-8 md:right-16 lg:right-24 z-[3] pointer-events-none"
       >
-        <div className="bg-white rounded-2xl shadow-2xl p-3 md:p-4">
+        <div className="shadow-2xl">
           <Image
-            src="/images/talkyd-hero-logo.png"
+            src="/images/talkyd/floating.png"
             alt="Talkyd Industrials"
             width={320}
-            height={120}
-            className="w-auto h-20 md:h-28 lg:h-32 object-contain"
+            height={320}
+            className="w-32 md:w-40 lg:w-48 h-auto object-contain"
             priority
+            loading="eager"
           />
         </div>
       </motion.div>
