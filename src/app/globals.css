@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Brand System - Talkyd Industrials */
+/* Brand System - Talkyd Industrials - LIGHT MODE ONLY */
 
 @theme {
   --color-primary: #3a9b9a;
@@ -12,6 +12,7 @@
   --color-border-color: #e5e5e5;
   --font-inter: "Inter", sans-serif;
   --font-poppins: "Poppins", sans-serif;
+  colorScheme: light;
 }
 
 @layer base {

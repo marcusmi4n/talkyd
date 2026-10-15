@@ -70,7 +70,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" data-scroll-behavior="smooth" className={`${inter.variable} ${poppins.variable} ${lato.variable}`}>
+    <html lang="en" data-scroll-behavior="smooth" style={{ colorScheme: 'light' }} className={`${inter.variable} ${poppins.variable} ${lato.variable}`}>
       <head>
         <script
           type="application/ld+json"

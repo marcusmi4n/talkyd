@@ -48,8 +48,8 @@ export default function Home() {
           className="object-cover object-center"
           priority
         />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-dark/75" />
+        {/* Light overlay */}
+        <div className="absolute inset-0 bg-dark/25" />
 
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse" />
