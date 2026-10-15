@@ -267,7 +267,7 @@ export default function ProductsPage() {
     <div className="pt-24 pb-20 min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/images/drums-1000xx.jpg" alt="Products" fill className="object-cover object-center" priority />
+        <Image src="/images/drums-1000xx.jpg" alt="Products" fill sizes="100vw" className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="max-w-4xl">

@@ -17,7 +17,7 @@ export default function SafetyPage() {
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/images/0_0-11191-7.webp" alt="Safety & Compliance" fill className="object-cover object-center" priority />
+        <Image src="/images/0_0-11191-7.webp" alt="Safety & Compliance" fill sizes="100vw" className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
@@ -75,7 +75,7 @@ export default function SafetyPage() {
             </div>
             <div className="rounded-3xl overflow-hidden border border-gray-100 shadow-sm relative">
               <div className="relative h-48">
-                <Image src="/images/pexels-pixabay-248152.jpg" alt="Compliance" fill className="object-cover" />
+                <Image src="/images/pexels-pixabay-248152.jpg" alt="Compliance" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                 <div className="absolute inset-0 bg-dark/50" />
                 <div className="absolute bottom-4 left-6">
                   <ShieldCheck className="w-10 h-10 text-white" />

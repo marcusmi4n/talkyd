@@ -17,7 +17,7 @@ export default function MissionPage() {
   return (
     <div className="min-h-screen bg-white">
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/images/pexels-pixabay-248152.jpg" alt="Mission and Vision" fill className="object-cover object-center" priority />
+        <Image src="/images/pexels-pixabay-248152.jpg" alt="Mission and Vision" fill sizes="100vw" className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
@@ -41,7 +41,7 @@ export default function MissionPage() {
               </div>
             </div>
             <div className="relative rounded-2xl overflow-hidden h-[400px]">
-              <Image src="/images/pexels-chanaka-906494.jpg" alt="Industrial vision" fill className="object-cover" />
+              <Image src="/images/pexels-chanaka-906494.jpg" alt="Industrial vision" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/50 to-transparent" />
               <div className="absolute bottom-6 left-6">
                 <p className="text-white text-lg font-medium">Empowering African Industries</p>
@@ -55,7 +55,7 @@ export default function MissionPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1 rounded-2xl overflow-hidden relative h-[400px]">
-              <Image src="/images/drums-1000xx.jpg" alt="Chemical supply mission" fill className="object-cover" />
+              <Image src="/images/drums-1000xx.jpg" alt="Chemical supply mission" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
             </div>
             <div className="order-1 lg:order-2">
               <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">

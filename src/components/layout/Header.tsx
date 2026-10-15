@@ -56,6 +56,7 @@ export default function Header() {
               height={75}
               className="h-14 md:h-20 w-auto object-contain transition-opacity group-hover:opacity-90"
               priority
+              loading="eager"
             />
           </Link>
 

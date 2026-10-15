@@ -26,7 +26,7 @@ export default function CompanyPage() {
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/images/pexels-chanaka-906494.jpg" alt="Company Overview" fill className="object-cover object-center" priority />
+        <Image src="/images/pexels-chanaka-906494.jpg" alt="Company Overview" fill sizes="100vw" className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
@@ -54,7 +54,7 @@ export default function CompanyPage() {
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="relative">
               <div className="rounded-2xl overflow-hidden relative h-[400px]">
-                <Image src="/images/drums-1000xx.jpg" alt="Chemical storage" fill className="object-cover" />
+                <Image src="/images/drums-1000xx.jpg" alt="Chemical storage" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-primary text-white p-6 rounded-xl shadow-lg hidden md:block">
                 <p className="text-4xl font-bold">10+</p>
@@ -106,7 +106,7 @@ export default function CompanyPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="rounded-2xl overflow-hidden relative h-[400px]">
-              <Image src="/images/pexels-pixabay-248152.jpg" alt="Laboratory chemicals" fill className="object-cover" />
+              <Image src="/images/pexels-pixabay-248152.jpg" alt="Laboratory chemicals" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
             </div>
             <div>
               <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
@@ -130,7 +130,7 @@ export default function CompanyPage() {
 
       {/* CTA */}
       <section className="relative py-24 overflow-hidden">
-        <Image src="/images/drums-1000xx.jpg" alt="CTA" fill className="object-cover" />
+        <Image src="/images/drums-1000xx.jpg" alt="CTA" fill sizes="100vw" className="object-cover" />
         <div className="absolute inset-0 bg-dark/70" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Partner With Us?</h2>

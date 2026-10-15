@@ -39,7 +39,7 @@ export default function AboutPage() {
 
       {/* Hero */}
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/bg/egret.jpg" alt="About Talkyd" fill className="object-cover object-top" priority />
+        <Image src="/bg/egret.jpg" alt="About Talkyd" fill sizes="100vw" className="object-cover object-top" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
@@ -88,16 +88,16 @@ export default function AboutPage() {
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="relative">
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-video rounded-xl overflow-hidden relative">
-                  <Image src="/images/pexels-chanaka-906494.jpg" alt="Industrial operations" fill className="object-cover" />
+                  <Image src="/images/pexels-chanaka-906494.jpg" alt="Industrial operations" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                 </div>
                 <div className="aspect-square rounded-xl overflow-hidden relative">
-                  <Image src="/images/drums-1000xx.jpg" alt="Chemical storage" fill className="object-cover" />
+                  <Image src="/images/drums-1000xx.jpg" alt="Chemical storage" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                 </div>
                 <div className="aspect-square rounded-xl overflow-hidden relative">
-                  <Image src="/images/pexels-pixabay-248152.jpg" alt="Laboratory" fill className="object-cover" />
+                  <Image src="/images/pexels-pixabay-248152.jpg" alt="Laboratory" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                 </div>
                 <div className="aspect-video rounded-xl overflow-hidden relative">
-                  <Image src="/images/pexels-felix-haumann-1938529-3735930.jpg" alt="Industrial facility" fill className="object-cover" />
+                  <Image src="/images/pexels-felix-haumann-1938529-3735930.jpg" alt="Industrial facility" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                 </div>
               </div>
               <div className="absolute -bottom-4 -right-4 bg-primary text-white px-5 py-3 rounded-xl shadow-lg font-bold text-sm">

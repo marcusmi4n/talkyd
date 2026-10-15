@@ -17,7 +17,7 @@ export default function LocationsPage() {
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/images/pexels-chanaka-906494.jpg" alt="Our Locations" fill className="object-cover object-center" priority />
+        <Image src="/images/pexels-chanaka-906494.jpg" alt="Our Locations" fill sizes="100vw" className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
@@ -45,7 +45,7 @@ export default function LocationsPage() {
               <Link href="/contact" className="btn-primary inline-flex items-center gap-2">Contact Us <ArrowRight className="w-4 h-4" /></Link>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="rounded-2xl overflow-hidden relative h-[400px]">
-              <Image src="/bg/aerial-drone-panorama-view-nature-moldova-sunset-village-wide-fields-valleys.jpg" alt="Kampala Uganda" fill className="object-cover" />
+              <Image src="/bg/aerial-drone-panorama-view-nature-moldova-sunset-village-wide-fields-valleys.jpg" alt="Kampala Uganda" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
               <div className="absolute inset-0 bg-dark/30" />
               <div className="absolute bottom-6 left-6 bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                 <p className="text-white font-bold text-2xl">🇺🇬 Uganda</p>
@@ -88,7 +88,7 @@ export default function LocationsPage() {
 
       {/* CTA */}
       <section className="relative py-24 overflow-hidden">
-        <Image src="/images/pexels-chanaka-906494.jpg" alt="CTA" fill className="object-cover" />
+        <Image src="/images/pexels-chanaka-906494.jpg" alt="CTA" fill sizes="100vw" className="object-cover" />
         <div className="absolute inset-0 bg-dark/70" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Need Chemical Products in Your Region?</h2>

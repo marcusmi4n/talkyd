@@ -81,7 +81,7 @@ export default function HeroSection() {
       {/* Preload all slides */}
       <div className="hidden">
         {slides.map((s, i) => (
-          <Image key={i} src={s.src} alt="" fill priority />
+          <Image key={i} src={s.src} alt="" fill priority sizes="100vw" />
         ))}
       </div>
 
@@ -100,6 +100,7 @@ export default function HeroSection() {
               src={slides[current % slides.length].src}
               alt={slides[current % slides.length].alt}
               fill
+              sizes="100vw"
               className="object-cover object-center"
               style={{ animation: 'kenburns 12s ease-in-out infinite' }}
               priority
@@ -130,6 +131,7 @@ export default function HeroSection() {
                 src={PANORAMIC}
                 alt="Aerial panoramic view"
                 fill
+                sizes="100vw"
                 className="object-cover object-center"
               />
             </div>

@@ -21,7 +21,7 @@ export default function NewsPage() {
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/images/pexels-ivan-s-9628801.jpg" alt="News & Updates" fill className="object-cover object-center" priority />
+        <Image src="/images/pexels-ivan-s-9628801.jpg" alt="News & Updates" fill sizes="100vw" className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
@@ -50,7 +50,7 @@ export default function NewsPage() {
               <motion.article key={article.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}
                 className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all group">
                 <div className="relative h-48 overflow-hidden">
-                  <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <Image src={article.image} alt={article.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute top-4 left-4">
                     <span className="bg-primary text-white px-3 py-1 rounded-full text-xs font-medium">{article.category}</span>
                   </div>
@@ -90,7 +90,7 @@ export default function NewsPage() {
 
       {/* CTA */}
       <section className="relative py-20 overflow-hidden">
-        <Image src="/images/drums-1000xx.jpg" alt="CTA" fill className="object-cover" />
+        <Image src="/images/drums-1000xx.jpg" alt="CTA" fill sizes="100vw" className="object-cover" />
         <div className="absolute inset-0 bg-dark/70" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Have Questions?</h2>

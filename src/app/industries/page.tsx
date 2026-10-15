@@ -19,7 +19,7 @@ export default function IndustriesPage() {
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/bg/world-science-day-research-innovation-elements.jpg" alt="Industries" fill className="object-cover object-center" priority />
+        <Image src="/bg/world-science-day-research-innovation-elements.jpg" alt="Industries" fill sizes="100vw" className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
@@ -41,7 +41,7 @@ export default function IndustriesPage() {
                 className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full overflow-hidden">
                 {/* Image banner */}
                 <div className="relative h-44 overflow-hidden">
-                  <Image src={industry.image} alt={industry.title} fill className="object-cover" />
+                  <Image src={industry.image} alt={industry.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover" />
                   <div className="absolute inset-0 bg-dark/40" />
                   <div className="absolute bottom-4 left-4">{industry.icon}</div>
                 </div>

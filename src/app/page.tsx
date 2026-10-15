@@ -162,7 +162,7 @@ export default function Home() {
 
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden relative">
-                <Image src="/images/pexels-felix-haumann-1938529-3735930.jpg" alt="Industrial operations" fill className="object-cover" />
+                <Image src="/images/pexels-felix-haumann-1938529-3735930.jpg" alt="Industrial operations" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                 <div className="absolute bottom-6 right-6 bg-white p-5 rounded-xl shadow-xl border border-gray-100">
                   <div className="flex items-center space-x-3 mb-1">
                     <ShieldCheck className="w-5 h-5 text-primary" />
