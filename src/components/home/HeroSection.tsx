@@ -8,13 +8,14 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 
 // Slideshow images (non-panoramic)
 const slides = [
-  { src: '/bg/buffalo.jpg', alt: 'Buffalo on the plains' },
-  { src: '/bg/egret.jpg', alt: 'Egret in nature' },
-  { src: '/bg/world-science-day-research-innovation-elements.jpg', alt: 'Science and innovation' },
+  { src: '/images/talkyd/hero.jpg', alt: 'Talkyd Industrial Solutions' },
+  { src: '/images/talkyd/hero1.jpg', alt: 'Chemical Distribution' },
+  { src: '/images/talkyd/hero2.jpg', alt: 'Industrial Supply' },
+  { src: '/images/talkyd/hero3.jpg', alt: 'Manufacturing Innovation' },
 ];
 
 // Panoramic image
-const PANORAMIC = '/bg/aerial-drone-panorama-view-nature-moldova-sunset-village-wide-fields-valleys.jpg';
+const PANORAMIC = '/images/talkyd/victor-UoIiVYka3VY-unsplash.jpg';
 
 // How long each slide shows (ms)
 const SLIDE_DURATION = 6000;
