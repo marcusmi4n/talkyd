@@ -20,7 +20,7 @@ const trustElements = [
 ];
 
 const journey = [
-  { year: "2018", title: "Founded", desc: "Mbonyange Africa Limited was established in Kampala, Uganda, with a clear mission: to bridge the gap between global chemical manufacturers and African industries." },
+  { year: "2018", title: "Founded", desc: "Talkyd Industrials was established in Kampala, Uganda, with a clear mission: to bridge the gap between global chemical manufacturers and African industries." },
   { year: "2019–2020", title: "Building Partnerships", desc: "Secured strategic partnerships with international manufacturers, expanding our product portfolio to cover industrial chemicals, laboratory reagents, and raw materials." },
   { year: "2021–2022", title: "Multi-Sector Expansion", desc: "Extended our reach into agriculture, water treatment, construction, and pharmaceutical sectors — becoming a true multi-industry supply partner." },
   { year: "2023–Present", title: "Pan-African Growth", desc: "Strengthened our distribution network across East Africa, deepened client relationships, and committed to delivering world-class supply chain standards." },
@@ -39,7 +39,7 @@ export default function AboutPage() {
 
       {/* Hero */}
       <section className="relative pt-20 h-[45vh] min-h-[320px] flex items-end overflow-hidden">
-        <Image src="/bg/egret.jpg" alt="About Mbonyange Africa" fill className="object-cover object-top" priority />
+        <Image src="/bg/egret.jpg" alt="About Talkyd" fill className="object-cover object-top" priority />
         <div className="absolute inset-0 bg-dark/65" />
         <div className="container mx-auto px-4 md:px-6 relative z-10 pb-12">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
@@ -48,7 +48,7 @@ export default function AboutPage() {
               <span className="text-white text-sm font-bold uppercase tracking-wider">Since 2018</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              About <span className="text-primary">Mbonyange Africa</span>
+              About <span className="text-primary">Talkyd</span>
             </h1>
             <p className="text-xl text-white/80 leading-relaxed">
               A trusted industrial and chemical supply company powering industries across Africa since 2018.
@@ -58,7 +58,7 @@ export default function AboutPage() {
       </section>
 
       {/* Who We Are */}
-      <section className="py-24 bg-[#f0f4f4]">
+      <section className="py-24 bg-[#edf6f6]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="space-y-6">
@@ -70,7 +70,7 @@ export default function AboutPage() {
                 Your Strategic Industrial Supply Partner in Africa
               </h2>
               <p className="text-gray-600 leading-relaxed text-lg">
-                Mbonyange Africa Limited is a professional industrial and chemical supply company headquartered in Kampala, Uganda. We specialize in the wholesale distribution of industrial chemicals, raw materials, laboratory supplies, and specialty products to businesses across Africa.
+                Talkyd Industrials is a professional industrial and chemical supply company headquartered in Kampala, Uganda. We specialize in the wholesale distribution of industrial chemicals, raw materials, laboratory supplies, and specialty products to businesses across Africa.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Founded in 2018, we operate as a non-manufacturing distributor — serving as the critical link between world-class global manufacturers and the industries, institutions, and businesses that depend on reliable chemical inputs to operate and grow.
@@ -123,7 +123,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-24 bg-[#f5f0eb]">
+      <section className="py-24 bg-[#f0f7f7]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
@@ -168,7 +168,7 @@ export default function AboutPage() {
       </section>
 
       {/* What We Do */}
-      <section className="py-24 bg-[#f0f4f4]">
+      <section className="py-24 bg-[#edf6f6]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-3 mb-4">
@@ -198,7 +198,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Journey */}
-      <section className="py-24 bg-[#f2f0ee]">
+      <section className="py-24 bg-[#eef3f5]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-3 mb-4">
@@ -231,10 +231,10 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-[#f5f0eb]">
+      <section className="py-20 bg-[#f0f7f7]">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold text-dark mb-4">Ready to Work With Us?</h2>
-          <p className="text-gray-600 mb-8 max-w-xl mx-auto">Partner with Mbonyange Africa for reliable industrial supply solutions across the continent.</p>
+          <p className="text-gray-600 mb-8 max-w-xl mx-auto">Partner with Talkyd for reliable industrial supply solutions across the continent.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/contact?quote=true" className="btn-primary inline-flex items-center gap-2 px-8 py-4">Request a Quote <ArrowRight className="w-5 h-5" /></Link>
             <Link href="/departments" className="btn-outline inline-flex items-center gap-2 px-8 py-4">Our Departments</Link>

@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://mbonyange.com';
-  const pages = ['', '/about', '/departments', '/industries', '/products', '/safety', '/contact'];
+  const baseUrl = 'https://talkyd.com';
+  const pages = ['', '/about', '/departments', '/industries', '/products', '/safety', '/contact', '/company-transition'];
 
   return pages.map((page) => ({
     url: `${baseUrl}${page}`,

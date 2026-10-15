@@ -128,7 +128,7 @@ function ContactFormContent() {
             <p className="text-xl text-white/80 leading-relaxed">
               {isQuoteRequest
                 ? 'Tell us about your requirements and our team will provide a competitive quotation within 24-48 hours.'
-                : 'Partner with Mbonyange Africa. Reach out for procurement inquiries, technical consultation, or general questions.'}
+                : 'Partner with Talkyd. Reach out for procurement inquiries, technical consultation, or general questions.'}
             </p>
           </motion.div>
         </div>
@@ -155,8 +155,8 @@ function ContactFormContent() {
                     <div>
                       <h3 className="font-bold mb-1">Email Us</h3>
                       <p className="text-gray-400 text-sm mb-2">General Inquiries:</p>
-                      <a href="mailto:info@mbonyange.com" className="text-primary font-medium hover:underline text-sm">
-                        info@mbonyange.com
+                      <a href="mailto:info@talkyd.com" className="text-primary font-medium hover:underline text-sm">
+                        info@talkyd.com
                       </a>
                     </div>
                   </div>
@@ -199,7 +199,7 @@ function ContactFormContent() {
                     <div>
                       <h3 className="font-bold mb-1">Our Location</h3>
                       <p className="text-gray-400 text-sm leading-relaxed">
-                        Mbonyange Africa Limited<br />
+                        Talkyd Industrials<br />
                         Kampala, Uganda
                       </p>
                     </div>
@@ -490,14 +490,14 @@ function ContactFormContent() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Mbonyange Africa Limited Location"
+          title="Talkyd Industrials Location"
           className="absolute inset-0"
         />
         {/* Logo overlay card */}
         <div className="absolute top-6 left-6 z-10 bg-white rounded-2xl shadow-xl p-4 border border-gray-100 flex items-center space-x-3 max-w-xs">
-          <img src="/images/logo-tbg.png" alt="Mbonyange Africa Limited" className="h-12 w-auto object-contain" />
+          <img src="/images/talkyd-nav-logo.png" alt="Talkyd Industrials" className="h-12 w-auto object-contain" />
           <div>
-            <p className="font-bold text-dark text-sm">Mbonyange Africa Limited</p>
+            <p className="font-bold text-dark text-sm">Talkyd Industrials</p>
             <p className="text-gray-500 text-xs">National ICT Hub, Nakawa</p>
             <p className="text-gray-500 text-xs">Kampala, Uganda</p>
             <a

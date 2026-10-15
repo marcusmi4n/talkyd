@@ -52,7 +52,7 @@ export default function IndustriesPage() {
                     <h3 className="text-xs font-bold text-primary uppercase tracking-widest mb-3">Sectors Focused</h3>
                     <div className="flex flex-wrap gap-2">
                       {industry.sectors.map((sector, i) => (
-                        <span key={i} className="px-3 py-1 bg-[#f0f4f4] text-gray-600 text-[10px] font-bold rounded-full border border-[#4f6c6c]/20">{sector}</span>
+                        <span key={i} className="px-3 py-1 bg-[#edf6f6] text-gray-600 text-[10px] font-bold rounded-full border border-[#275e6d]/20">{sector}</span>
                       ))}
                     </div>
                   </div>
@@ -64,7 +64,7 @@ export default function IndustriesPage() {
       </section>
 
       {/* Bottom Banner */}
-      <section className="py-20 bg-[#f5f0eb] border-t border-[#76614d]/10">
+      <section className="py-20 bg-[#f0f7f7] border-t border-[#3a9b9a]/10">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold text-dark mb-6">Multi-Sector Capability, Single-Point Responsibility</h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-10 text-lg">We understand the unique challenges of each industry. Our cross-sector experience brings best practices and efficient supply chains to every project.</p>

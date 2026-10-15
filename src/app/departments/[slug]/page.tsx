@@ -29,7 +29,7 @@ const departmentData: Record<string, any> = {
   "industrial": {
     title: "Industrial & Chemical Supply",
     icon: <Factory className="w-12 h-12" />,
-    longDescription: "Mbonyange Africa's Industrial & Chemical division is a market leader in the strategic distribution of high-performance chemicals and raw materials. We serve the core of African manufacturing, from heavy industry to specialized processing plants. Our commitment to quality ensures that every chemical supplied meets rigorous international purity and safety standards.",
+    longDescription: "Talkyd's Industrial & Chemical division is a market leader in the strategic distribution of high-performance chemicals and raw materials. We serve the core of African manufacturing, from heavy industry to specialized processing plants. Our commitment to quality ensures that every chemical supplied meets rigorous international purity and safety standards.",
     capabilities: [
       "Strategic bulk sourcing from global Tier-1 manufacturers",
       "Hazardous material storage and compliant distribution",
@@ -159,7 +159,7 @@ const departmentData: Record<string, any> = {
   "procurement": {
     title: "General Trading & Procurement",
     icon: <ShoppingBag className="w-12 h-12" />,
-    longDescription: "Our Procurement division acts as the strategic intelligence center for Mbonyange Africa. We handle complex, multi-sector sourcing requests for NGOs, government bodies, and private enterprises, providing a single point of responsibility for global supply chains.",
+    longDescription: "Our Procurement division acts as the strategic intelligence center for Talkyd. We handle complex, multi-sector sourcing requests for NGOs, government bodies, and private enterprises, providing a single point of responsibility for global supply chains.",
     capabilities: [
       "Global strategic vendor management",
       "Tender and contract procurement expertise",
@@ -181,7 +181,7 @@ const departmentData: Record<string, any> = {
   "logistics": {
     title: "Logistics & Distribution",
     icon: <Truck className="w-12 h-12" />,
-    longDescription: "Logistics is the heartbeat of Mbonyange Africa. We operate a sophisticated distribution network capable of navigating the complex terrain and regulatory landscape of the African continent, ensuring that industrial supplies are delivered with precision and integrity.",
+    longDescription: "Logistics is the heartbeat of Talkyd. We operate a sophisticated distribution network capable of navigating the complex terrain and regulatory landscape of the African continent, ensuring that industrial supplies are delivered with precision and integrity.",
     capabilities: [
       "Cross-border customs and documentation handling",
       "Secure hazardous material (HAZMAT) transport",

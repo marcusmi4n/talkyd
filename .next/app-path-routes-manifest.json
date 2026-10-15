@@ -1,0 +1,23 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/api/contact/route": "/api/contact",
+  "/company-transition/page": "/company-transition",
+  "/company/page": "/company",
+  "/contact/page": "/contact",
+  "/departments/[slug]/page": "/departments/[slug]",
+  "/departments/page": "/departments",
+  "/favicon.ico/route": "/favicon.ico",
+  "/history/page": "/history",
+  "/icon.png/route": "/icon.png",
+  "/industries/page": "/industries",
+  "/locations/page": "/locations",
+  "/mission/page": "/mission",
+  "/news/page": "/news",
+  "/page": "/",
+  "/products/page": "/products",
+  "/robots.txt/route": "/robots.txt",
+  "/safety/page": "/safety",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

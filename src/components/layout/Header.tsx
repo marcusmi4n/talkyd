@@ -50,8 +50,8 @@ export default function Header() {
         <nav className="flex items-center justify-between">
           <Link href="/" className="flex items-center group">
             <Image
-              src="/images/logo-tbg.png"
-              alt="Mbonyange Africa Limited"
+              src="/images/talkyd-nav-logo.png"
+              alt="Talkyd Industrials"
               width={220}
               height={75}
               className="h-14 md:h-20 w-auto object-contain transition-opacity group-hover:opacity-90"

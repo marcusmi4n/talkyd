@@ -152,6 +152,25 @@ export default function HeroSection() {
         ))}
       </div>
 
+      {/* Floating Logo Badge — top right */}
+      <motion.div
+        initial={{ opacity: 0, y: -20, scale: 0.9 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{ duration: 1, ease: 'easeOut', delay: 0.3 }}
+        className="absolute top-28 right-8 md:right-16 lg:right-24 z-[3] pointer-events-none"
+      >
+        <div className="bg-white rounded-2xl shadow-2xl p-3 md:p-4">
+          <Image
+            src="/images/talkyd-hero-logo.png"
+            alt="Talkyd Industrials"
+            width={320}
+            height={120}
+            className="w-auto h-20 md:h-28 lg:h-32 object-contain"
+            priority
+          />
+        </div>
+      </motion.div>
+
       {/* Content */}
       <div className="container mx-auto px-4 md:px-6 relative z-[2]">
         <div className="max-w-4xl">

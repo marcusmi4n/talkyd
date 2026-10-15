@@ -28,7 +28,7 @@ export default function LocationsPage() {
       </section>
 
       {/* HQ */}
-      <section className="py-24 bg-[#f0f4f4]">
+      <section className="py-24 bg-[#edf6f6]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
@@ -39,7 +39,7 @@ export default function LocationsPage() {
               <p className="text-gray-600 mb-8">Our headquarters in Kampala serves as the central hub for all operations. From here, we coordinate product sourcing, quality control, customer service, and distribution across the region.</p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3"><MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" /><div><p className="font-medium text-dark">Address</p><p className="text-gray-500">National ICT Hub, Nakawa, Kampala, Uganda</p></div></div>
-                <div className="flex items-start gap-3"><Mail className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" /><div><p className="font-medium text-dark">Email</p><a href="mailto:info@mbonyange.com" className="text-primary hover:underline">info@mbonyange.com</a></div></div>
+                <div className="flex items-start gap-3"><Mail className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" /><div><p className="font-medium text-dark">Email</p><a href="mailto:info@talkyd.com" className="text-primary hover:underline">info@talkyd.com</a></div></div>
                 <div className="flex items-start gap-3"><Phone className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" /><div><p className="font-medium text-dark">Phone</p><p className="text-gray-500">+256 704 288436 / +256 392 846812</p></div></div>
               </div>
               <Link href="/contact" className="btn-primary inline-flex items-center gap-2">Contact Us <ArrowRight className="w-4 h-4" /></Link>
@@ -57,7 +57,7 @@ export default function LocationsPage() {
       </section>
 
       {/* Regional */}
-      <section className="py-24 bg-[#f5f0eb]">
+      <section className="py-24 bg-[#f0f7f7]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-dark mb-4">Regional <span className="text-primary">Presence</span></h2>

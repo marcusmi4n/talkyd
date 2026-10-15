@@ -92,8 +92,8 @@ export default function Home() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-64 h-64 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary/30">
                     <Image
-                      src="/images/logo-tbg.png"
-                      alt="Mbonyange Africa Limited"
+                      src="/images/talkyd-nav-logo.png"
+                      alt="Talkyd Industrials"
                       width={220}
                       height={220}
                       className="w-56 h-56 object-contain"
@@ -125,7 +125,7 @@ export default function Home() {
       </section>
 
       {/* Who We Are */}
-      <section className="py-24 bg-[#f0f4f4] border-t border-[#4f6c6c]/10">
+      <section className="py-24 bg-[#edf6f6] border-t border-[#275e6d]/10">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
@@ -179,7 +179,7 @@ export default function Home() {
       </section>
 
       {/* Core Departments */}
-      <section className="py-24 bg-[#f5f0eb] border-t border-[#76614d]/10">
+      <section className="py-24 bg-[#f0f7f7] border-t border-[#3a9b9a]/10">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
@@ -208,7 +208,7 @@ export default function Home() {
       </section>
 
       {/* Industries */}
-      <section className="py-24 bg-[#f0f4f4] border-t border-[#4f6c6c]/10">
+      <section className="py-24 bg-[#edf6f6] border-t border-[#275e6d]/10">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -233,7 +233,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-24 bg-[#f2f0ee] border-t border-[#879080]/15">
+      <section className="py-24 bg-[#eef3f5] border-t border-[#213a5a]/15">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
@@ -260,11 +260,11 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-[#f5f0eb] border-t border-[#76614d]/10">
+      <section className="py-24 bg-[#f0f7f7] border-t border-[#3a9b9a]/10">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
             className="bg-gradient-to-br from-primary/10 to-secondary/5 rounded-3xl p-12 md:p-16 text-center border border-primary/20">
-            <h2 className="text-3xl md:text-5xl font-bold text-dark mb-6">Partner with Mbonyange Africa</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-dark mb-6">Partner with Talkyd</h2>
             <p className="text-gray-600 text-lg mb-10 max-w-2xl mx-auto">
               Looking for a reliable industrial procurement partner? Let&apos;s discuss how we can support your operational goals.
             </p>

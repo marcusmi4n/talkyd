@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Email configuration
-    const toEmail = 'info@mbonyange.com';
+    const toEmail = 'info@talkyd.com';
     const emailSubject = messageType === 'quote'
       ? `[QUOTE REQUEST] ${subject || 'New Quotation Request'}`
       : `[WEBSITE INQUIRY] ${subject || 'New Contact Form Submission'}`;
@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: 'Mbonyange Website <onboarding@resend.dev>', // Replace with your verified domain in production
+      from: 'Talkyd Website <onboarding@resend.dev>', // Replace with your verified domain in production
       to: toEmail,
       replyTo: email,
       subject: emailSubject,
@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
               ${messageType === 'quote' ? 'QUOTATION REQUEST' : 'WEBSITE INQUIRY'}
             </h1>
             <p style="color: #879080; margin: 10px 0 0 0; font-size: 14px; text-transform: uppercase; font-weight: bold;">
-              Mbonyange Africa Limited
+              Talkyd Industrials
             </p>
           </div>
 
@@ -96,10 +96,10 @@ export async function POST(req: NextRequest) {
           <!-- Footer -->
           <div style="padding: 20px; background: #f9fafb; border-top: 1px solid #e0e0e0; text-align: center;">
             <p style="margin: 0; color: #9ca3af; font-size: 12px;">
-              This email was generated from the contact form on <a href="https://mbonyange.com" style="color: #4f6c6c; text-decoration: none;">mbonyange.com</a>
+              This email was generated from the contact form on <a href="https://talkyd.com" style="color: #3a9b9a; text-decoration: none;">talkyd.com</a>
             </p>
             <p style="margin: 5px 0 0 0; color: #9ca3af; font-size: 11px;">
-              &copy; ${new Date().getFullYear()} Mbonyange Africa Limited. All rights reserved.
+              &copy; ${new Date().getFullYear()} Talkyd Industrials. All rights reserved.
             </p>
           </div>
         </div>

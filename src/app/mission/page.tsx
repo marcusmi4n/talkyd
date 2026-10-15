@@ -27,7 +27,7 @@ export default function MissionPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-[#f0f4f4]">
+      <section className="py-24 bg-[#edf6f6]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -51,7 +51,7 @@ export default function MissionPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-[#f5f0eb]">
+      <section className="py-24 bg-[#f0f7f7]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1 rounded-2xl overflow-hidden relative h-[400px]">
@@ -76,7 +76,7 @@ export default function MissionPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-[#f2f0ee]">
+      <section className="py-24 bg-[#eef3f5]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-dark mb-4">Our Core <span className="text-primary">Values</span></h2>

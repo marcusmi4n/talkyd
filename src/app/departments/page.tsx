@@ -17,7 +17,7 @@ const departments = [
   { id: "compliance", title: "Compliance & Quality Assurance", image: "/images/0_0-11191-7.webp", icon: <ShieldCheck className="w-10 h-10" />, description: "Ensuring all operations and supplied products meet the highest regulatory and safety standards.", items: ["Regulatory compliance auditing", "Quality control and inspection", "Safety training and certification", "Environmental impact assessments", "Supply chain transparency reporting"] }
 ];
 
-const sectionBgs = ['bg-[#f0f4f4]', 'bg-[#f5f0eb]', 'bg-[#f2f0ee]'];
+const sectionBgs = ['bg-[#edf6f6]', 'bg-[#f0f7f7]', 'bg-[#eef3f5]'];
 
 export default function DepartmentsPage() {
   return (
@@ -75,7 +75,7 @@ export default function DepartmentsPage() {
       ))}
 
       {/* CTA */}
-      <section className="py-20 bg-[#f5f0eb] border-t border-[#76614d]/10">
+      <section className="py-20 bg-[#f0f7f7] border-t border-[#3a9b9a]/10">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}>
             <h2 className="text-3xl md:text-4xl font-bold text-dark mb-6">Need a Specialized Supply Solution?</h2>

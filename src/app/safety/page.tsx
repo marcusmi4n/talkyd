@@ -25,7 +25,7 @@ export default function SafetyPage() {
               <span className="text-white text-sm font-medium uppercase tracking-wider">Our Standards</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Safety &amp; <span className="text-primary">Compliance</span></h1>
-            <p className="text-xl text-white/80 leading-relaxed">At Mbonyange Africa, integrity and safety are the foundations of our professional credibility.</p>
+            <p className="text-xl text-white/80 leading-relaxed">At Talkyd, integrity and safety are the foundations of our professional credibility.</p>
           </motion.div>
         </div>
       </section>
@@ -49,7 +49,7 @@ export default function SafetyPage() {
       </section>
 
       {/* Compliance Framework */}
-      <section className="py-24 bg-[#f5f0eb]">
+      <section className="py-24 bg-[#f0f7f7]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -92,11 +92,11 @@ export default function SafetyPage() {
       </section>
 
       {/* ESG */}
-      <section className="py-24 bg-[#f2f0ee]">
+      <section className="py-24 bg-[#eef3f5]">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-dark mb-6">Commitment to African Sustainability</h2>
-            <p className="text-gray-600 mb-12 text-lg">Mbonyange Africa integrates ESG principles into our core strategy, ensuring our growth contributes positively to the communities and environments where we operate.</p>
+            <p className="text-gray-600 mb-12 text-lg">Talkyd integrates ESG principles into our core strategy, ensuring our growth contributes positively to the communities and environments where we operate.</p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
               {[{ value: '100%', label: 'Safety Compliance' }, { value: 'Zero', label: 'Major Incidents' }, { value: 'Full', label: 'Traceability' }].map((stat, i) => (
                 <div key={i} className="p-6 bg-white rounded-2xl border border-gray-100 shadow-sm">

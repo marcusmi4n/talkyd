@@ -275,7 +275,7 @@ export default function ProductsPage() {
               Products & <span className="text-primary">Capabilities</span>
             </h1>
             <p className="text-xl text-white/80 leading-relaxed max-w-3xl">
-              Mbonyange Africa provides a comprehensive range of industrial chemicals, polymers, and specialty products backed by global partnerships and rigorous quality assurance.
+              Talkyd provides a comprehensive range of industrial chemicals, polymers, and specialty products backed by global partnerships and rigorous quality assurance.
             </p>
           </motion.div>
         </div>

@@ -119,7 +119,7 @@ export default function ContactForm() {
           Message Sent Successfully
         </h3>
         <p className="text-[#B0B7BC] mb-6">
-          Thank you for contacting Chembridge Africa Limited. We will respond to
+          Thank you for contacting Talkyd Industrials. We will respond to
           your inquiry within 24-48 business hours.
         </p>
         <Button

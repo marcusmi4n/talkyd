@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <Image src="/bg/footer.png" alt="Mbonyange Africa Limited" width={800} height={280} className="h-56 w-auto object-contain" />
+              <Image src="/images/talkyd-footer-logo.png" alt="Talkyd Industrials" width={800} height={280} className="h-56 w-auto object-contain" />
             </Link>
             <p className="text-white/80 text-sm leading-relaxed">
               A diversified industrial supply and trading company specializing in integrated supply, chemical distribution, and industrial solutions across Africa.
@@ -32,7 +32,7 @@ export default function Footer() {
               Quick Links
             </h4>
             <ul className="space-y-3">
-              {[{name:'About Us',href:'/about'},{name:'Products',href:'/products'},{name:'Departments',href:'/departments'},{name:'Industries',href:'/industries'},{name:'Safety',href:'/safety'},{name:'Contact',href:'/contact'}].map((link) => (
+              {[{name:'About Us',href:'/about'},{name:'Products',href:'/products'},{name:'Departments',href:'/departments'},{name:'Industries',href:'/industries'},{name:'Safety',href:'/safety'},{name:'Contact',href:'/contact'},{name:'Company Transition',href:'/company-transition'}].map((link) => (
                 <li key={link.name}>
                   <Link href={link.href} className="text-white/80 hover:text-white transition-colors text-sm flex items-center group">
                     <ChevronRight className="w-4 h-4 mr-2 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
@@ -68,7 +68,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <div className="p-2 bg-white/10 rounded-lg flex-shrink-0"><MapPin size={18} /></div>
-                <span className="text-white/80 text-sm">Mbonyange Africa Limited, Kampala, Uganda</span>
+                <span className="text-white/80 text-sm">Talkyd Industrials, Kampala, Uganda</span>
               </li>
               <li className="flex items-center space-x-3">
                 <div className="p-2 bg-white/10 rounded-lg flex-shrink-0"><Phone size={18} /></div>
@@ -80,7 +80,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <div className="p-2 bg-white/10 rounded-lg flex-shrink-0"><Mail size={18} /></div>
-                <a href="mailto:info@mbonyange.com" className="text-white/80 hover:text-white text-sm">info@mbonyange.com</a>
+                <a href="mailto:info@talkyd.com" className="text-white/80 hover:text-white text-sm">info@talkyd.com</a>
               </li>
             </ul>
           </div>
@@ -93,7 +93,7 @@ export default function Footer() {
               <h4 className="text-white text-xl font-bold mb-1">Ready to Partner with Us?</h4>
               <p className="text-white/80 text-sm">Request a quote for your industrial chemical needs.</p>
             </div>
-            <Link href="/contact?quote=true" className="px-6 py-3 bg-white text-[#6b5a48] font-bold rounded-md hover:bg-white/90 transition-all hover:scale-105 active:scale-95 whitespace-nowrap">
+            <Link href="/contact?quote=true" className="px-6 py-3 bg-white text-[#275e6d] font-bold rounded-md hover:bg-white/90 transition-all hover:scale-105 active:scale-95 whitespace-nowrap">
               Request a Quote
             </Link>
           </div>
@@ -102,7 +102,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-white/60 text-xs text-center md:text-left">
-            &copy; {currentYear} Mbonyange Africa Limited. All rights reserved.
+            &copy; {currentYear} Talkyd Industrials. All rights reserved.
           </p>
           <div className="flex space-x-6 text-xs text-white/60">
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>

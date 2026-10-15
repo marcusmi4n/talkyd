@@ -7,10 +7,10 @@ import { ArrowRight } from 'lucide-react';
 
 const newsArticles = [
   { id: 1, title: "Expanding Our Product Range for Laboratory Applications", excerpt: "We are pleased to announce the addition of new laboratory-grade chemicals and reagents to our product portfolio, meeting the growing demands of research institutions across East Africa.", date: "December 2024", category: "Company News", image: "/images/pexels-pixabay-248152.jpg" },
-  { id: 2, title: "Partnership with Leading Global Manufacturers", excerpt: "Mbonyange Africa strengthens its supply chain through new strategic partnerships with internationally recognized chemical manufacturers, ensuring consistent quality and availability.", date: "November 2024", category: "Partnerships", image: "/images/pexels-chanaka-906494.jpg" },
+  { id: 2, title: "Partnership with Leading Global Manufacturers", excerpt: "Talkyd strengthens its supply chain through new strategic partnerships with internationally recognized chemical manufacturers, ensuring consistent quality and availability.", date: "November 2024", category: "Partnerships", image: "/images/pexels-chanaka-906494.jpg" },
   { id: 3, title: "Supporting Uganda's Agricultural Sector", excerpt: "Our agricultural chemicals division continues to support farmers and agribusinesses with quality fertilizers, pesticides, and soil treatment solutions for improved crop yields.", date: "October 2024", category: "Industry Focus", image: "/images/pexels-felix-haumann-1938529-3735930.jpg" },
   { id: 4, title: "Quality Assurance: Our Commitment to Excellence", excerpt: "Learn about our rigorous quality control processes that ensure every product meets international standards before reaching our valued customers.", date: "September 2024", category: "Quality", image: "/images/pexels-ivan-s-9628801.jpg" },
-  { id: 5, title: "Regional Expansion: Serving More African Markets", excerpt: "Mbonyange Africa extends its distribution network to serve additional markets in East and Central Africa, bringing reliable chemical supply solutions to more industries.", date: "August 2024", category: "Expansion", image: "/images/drums-1000xx.jpg" },
+  { id: 5, title: "Regional Expansion: Serving More African Markets", excerpt: "Talkyd extends its distribution network to serve additional markets in East and Central Africa, bringing reliable chemical supply solutions to more industries.", date: "August 2024", category: "Expansion", image: "/images/drums-1000xx.jpg" },
   { id: 6, title: "Safety First: Best Practices in Chemical Handling", excerpt: "An overview of the safety protocols and best practices we follow in storing, handling, and transporting chemical products to protect people and the environment.", date: "July 2024", category: "Safety", image: "/images/0_0-11191-7.webp" },
 ];
 
@@ -32,7 +32,7 @@ export default function NewsPage() {
       </section>
 
       {/* Filter */}
-      <section className="py-8 bg-[#f0f4f4] border-b border-gray-100">
+      <section className="py-8 bg-[#edf6f6] border-b border-gray-100">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-wrap justify-center gap-3">
             {categories.map((cat, i) => (

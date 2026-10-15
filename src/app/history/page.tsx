@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
 const milestones = [
-  { year: "2014", title: "Foundation", description: "Mbonyange Africa Limited was established in Kampala, Uganda, with a vision to bridge the gap between global chemical manufacturers and African industries." },
+  { year: "2014", title: "Foundation", description: "Talkyd Industrials was established in Kampala, Uganda, with a vision to bridge the gap between global chemical manufacturers and African industries." },
   { year: "2015", title: "First Major Partnerships", description: "Secured partnerships with leading international chemical manufacturers, enabling access to high-quality industrial chemicals for the Ugandan market." },
   { year: "2017", title: "Laboratory Chemicals Division", description: "Expanded product portfolio to include laboratory chemicals and reagents, serving research institutions and educational facilities." },
   { year: "2019", title: "Regional Expansion", description: "Extended distribution capabilities across East Africa, serving clients in Kenya, Tanzania, Rwanda, and beyond." },
@@ -31,7 +31,7 @@ export default function HistoryPage() {
       </section>
 
       {/* Journey */}
-      <section className="py-24 bg-[#f0f4f4]">
+      <section className="py-24 bg-[#edf6f6]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="space-y-6">
@@ -39,7 +39,7 @@ export default function HistoryPage() {
                 <span className="text-primary text-sm font-medium uppercase tracking-wider">Our Journey</span>
               </div>
               <h2 className="text-3xl font-bold text-dark">From Vision to Reality</h2>
-              <p className="text-gray-600 leading-relaxed">Mbonyange Africa Limited began with a simple yet ambitious vision: to ensure that African industries have access to the same quality chemical products and reliable supply chains available in developed markets.</p>
+              <p className="text-gray-600 leading-relaxed">Talkyd Industrials began with a simple yet ambitious vision: to ensure that African industries have access to the same quality chemical products and reliable supply chains available in developed markets.</p>
               <p className="text-gray-600 leading-relaxed">Founded by a team of professionals with extensive experience in chemical trading and industrial supply, we set out to address the challenges faced by businesses seeking reliable chemical inputs in the region.</p>
               <p className="text-gray-600 leading-relaxed">Over the years, we have grown from a small operation serving local businesses to a regional player with clients across multiple African countries.</p>
             </motion.div>
@@ -51,7 +51,7 @@ export default function HistoryPage() {
       </section>
 
       {/* Timeline */}
-      <section className="py-24 bg-[#f5f0eb]">
+      <section className="py-24 bg-[#f0f7f7]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-dark mb-4">Our <span className="text-primary">Milestones</span></h2>
